@@ -451,7 +451,7 @@
             </div>
 
             <!-- Blog Section -->
-            <div class="section bg-transparent my-0 my-lg-5 py-0 py-lg-5">
+            <div class="section bg-transparent my-0 my-lg-5 py-0 py-lg-0">
               <div class="container">
                 <div class="row justify-content-between col-mb-50">
                   <div class="col-lg-3">
@@ -587,25 +587,29 @@
                 </div>
                 <div class="col-md-10 mx-auto col-lg-5">
                   <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
-                    <div class="form-floating mb-3">
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label"
+                        >Email address</label
+                      >
                       <input
                         type="email"
                         class="form-control"
-                        id="floatingInput"
+                        id="exampleFormControlInput1"
                         placeholder="name@example.com"
                       />
-                      <label for="floatingInput">Email address</label>
                     </div>
-                    <div class="form-floating mb-3">
-                      <input
-                        type="password"
+                    <div class="mb-3">
+                      <label
+                        for="exampleFormControlTextarea1"
+                        class="form-label"
+                        >Project Enquiries</label
+                      >
+                      <textarea
                         class="form-control"
-                        id="floatingPassword"
-                        placeholder="Password"
-                      />
-                      <label for="floatingPassword">Password</label>
+                        id="exampleFormControlTextarea1"
+                        rows="3"
+                      ></textarea>
                     </div>
-
                     <button class="w-100 btn btn-lg btn-primary" type="submit">
                       Sign up
                     </button>
