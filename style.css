@@ -224,9 +224,23 @@ body {
   background-color: #121212;
 }
 
-#btn-custom: hover {
-  color: #841258 !important;
-  background-color: #841258 !important;
+.heading {
+  color: #f82586;
+}
+
+.heading-color {
+  color: whitesmoke;
+}
+
+.button-color {
+  background-color: #f82586 !important;
+  transition: background-color 0.3s ease;
+  color: whitesmoke !important;
+}
+
+.button-color:hover {
+  color: #f82586 !important;
+  background-color: whitesmoke !important;
 }
 
 hr {
