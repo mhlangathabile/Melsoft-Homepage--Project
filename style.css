@@ -247,6 +247,15 @@ body {
   filter: blur(3px);
 }
 
+.dotted-bg {
+  background-color: #f82586 !important;
+}
+
+.Melsoft-logo {
+  width: 400px;
+  height: 550px;
+}
+
 hr {
   margin: 1rem 0;
   color: inherit;
