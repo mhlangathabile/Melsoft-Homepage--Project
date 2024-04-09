@@ -272,7 +272,7 @@
       <!-- Content
 		============================================= -->
       <section id="content">
-        <div class="content-wrap pb-0 pt-0 pt-lg-0 homepage">
+        <div class="content-wrap pb-0 pt-0 pt-lg-0 homepage" id="aboutUs">
           <div class="section bg-transparent mt-6 py-0 py-lg-0">
             <div class="container mw-md">
               <div
@@ -311,7 +311,7 @@
           </div>
 
           <!-- Services Section -->
-          <div class="section bg-transparent mt-0 py-0 py-lg-0">
+          <div class="section bg-transparent mt-0 py-0 py-lg-0" id="Services">
             <div class="container mw-md">
               <div class="container px-4 py-0" id="featured-3">
                 <h2
@@ -367,7 +367,10 @@
             </div>
 
             <!-- Blog Section -->
-            <div class="section bg-transparent my-0 my-lg-5 py-0 py-lg-0">
+            <div
+              class="section bg-transparent my-0 my-lg-5 py-0 py-lg-0"
+              id="Blog"
+            >
               <div class="container">
                 <div class="row justify-content-between col-mb-50">
                   <div class="col-lg-3">
@@ -488,13 +491,13 @@
               </div>
             </div>
 
-            <div class="container col-xl-10 col-xxl-8 px-4 py-0">
+            <div class="container col-xl-10 col-xxl-8 px-4 py-0" id="Connect">
               <div class="row align-items-center g-lg-5 py-0">
                 <div class="col-lg-7 text-center text-lg-start">
-                  <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">
+                  <h1 class="display-4 fw-bold lh-1 heading mb-3">
                     Connect with Us
                   </h1>
-                  <p class="col-lg-10 fs-4">
+                  <p class="col-lg-10 fs-4 heading-color">
                     Reach out for inquiries, partnerships, or any questions.
                     We're here to help!
                   </p>
@@ -524,9 +527,11 @@
                         rows="3"
                       ></textarea>
                     </div>
-                    <button class="w-100 btn btn-lg btn-primary" type="submit">
-                      Join Us
-                    </button>
+                    <a
+                      href="#"
+                      class="btn button-xlarge bg-opacity-10 heading-color ms-0 px-5 px-md-6 py-3 m-0 button-colors"
+                      >Join Us</a
+                    >
                     <hr class="my-4" />
                     <small class="text-body-secondary"
                       >By Joining Us, you agree to the terms of use.</small
@@ -542,16 +547,16 @@
 
       <!-- Footer
 		============================================= -->
-      <footer id="footer" class="bg-white border-0">
-        <div class="container">
+      <footer id="footer" class="border-0">
+        <div class="homepage">
           <!-- Footer Widgets
 				============================================= -->
           <div class="footer-widgets-wrap mt-0">
             <div class="row justify-content-center text-center col-mb-50">
               <div class="col-lg-5 col-md-10">
-                <h2>
+                <h2 class="heading-color">
                   Explore the limitless possibilities of software
-                  <span>innovation</span>
+                  <span class="date-link">innovation</span>
                   with Melsoft.
                 </h2>
 
@@ -595,42 +600,31 @@
               <footer
                 class="d-flex flex-wrap justify-content-between align-items-center py-0 my-0 border-top"
               >
-                <p class="col-md-4 mb-0 text-body-secondary">
-                  &copy; 2024 Company, Inc
-                </p>
+                <p class="col-md-4 mb-0 heading">&copy; 2024 MELSOFT, Inc</p>
 
                 <a
-                  href="/"
-                  class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+                  href="https://venerable-blini-54763c.netlify.app/"
+                  class="heading"
+                  >Webpage by Thabile P Mhlanga</a
                 >
-                  <svg class="bi me-2" width="40" height="32">
-                    <use xlink:href="#bootstrap" />
-                  </svg>
-                </a>
 
                 <ul class="nav col-md-4 justify-content-end">
                   <li class="nav-item">
-                    <a href="#" class="nav-link px-2 text-body-secondary"
-                      >Home</a
-                    >
+                    <a href="#" class="nav-link px-2 date-link">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a href="#" class="nav-link px-2 text-body-secondary"
+                    <a href="#Services" class="nav-link px-2 date-link"
                       >Services</a
                     >
                   </li>
                   <li class="nav-item">
-                    <a href="#" class="nav-link px-2 text-body-secondary"
-                      >Pricing</a
-                    >
+                    <a href="#" class="nav-link px-2 date-link">Pricing</a>
                   </li>
                   <li class="nav-item">
-                    <a href="#" class="nav-link px-2 text-body-secondary"
-                      >FAQs</a
-                    >
+                    <a href="#Connect" class="nav-link px-2 date-link">FAQs</a>
                   </li>
                   <li class="nav-item">
-                    <a href="#" class="nav-link px-2 text-body-secondary"
+                    <a href="#aboutUs" class="nav-link px-2 date-link"
                       >About Us</a
                     >
                   </li>

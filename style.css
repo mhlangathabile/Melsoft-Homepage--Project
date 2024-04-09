@@ -251,6 +251,17 @@ body {
   background-color: whitesmoke !important;
 }
 
+.button-colors {
+  background-color: #f82586 !important;
+  transition: background-color 0.3s ease;
+  color: whitesmoke !important;
+}
+
+.button-colors:hover {
+  color: #f82586 !important;
+  background-color: black !important;
+}
+
 .blurry-image {
   filter: blur(3px);
 }
