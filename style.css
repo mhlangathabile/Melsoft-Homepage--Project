@@ -256,6 +256,14 @@ body {
   height: 550px;
 }
 
+p {
+  font-size: 20px !important;
+}
+
+.icon-link:hover {
+  color: whitesmoke;
+}
+
 hr {
   margin: 1rem 0;
   color: inherit;
