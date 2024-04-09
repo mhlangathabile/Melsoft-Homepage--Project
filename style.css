@@ -243,6 +243,10 @@ body {
   background-color: whitesmoke !important;
 }
 
+.blurry-image {
+  filter: blur(3px);
+}
+
 hr {
   margin: 1rem 0;
   color: inherit;
