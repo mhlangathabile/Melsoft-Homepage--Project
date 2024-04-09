@@ -228,6 +228,14 @@ body {
   color: #f82586;
 }
 
+.date-link {
+  color: #f82586 !important;
+}
+
+.blog-link {
+  color: whitesmoke !important;
+}
+
 .heading-color {
   color: whitesmoke;
 }
