@@ -224,6 +224,11 @@ body {
   background-color: #121212;
 }
 
+#btn-custom: hover {
+  color: #841258 !important;
+  background-color: #841258 !important;
+}
+
 hr {
   margin: 1rem 0;
   color: inherit;
